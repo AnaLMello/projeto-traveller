@@ -1,0 +1,72 @@
+.swiper-wrapper{
+	display: flex;
+}
+
+.carrosel{
+	width: 100%;
+	position: absolute;
+	margin-top: 210px;
+	background-color: #12784D;
+}
+
+
+.carrosel-titulo{
+	color: white;
+	text-align: center;
+	font-size: 32px;
+	padding: 1em 0 0;
+}
+
+
+.swiper{
+	padding: 3em 1em;
+
+}
+
+.swiper-button-prev, .swiper-button-next{
+	display: none;
+}
+
+.swiper-pagination{
+	position: initial;
+	margin: 1em 0;
+
+}
+
+.swiper-slide{
+	padding: 1em 0;
+}
+
+
+
+.container-mes{
+	position: absolute;
+	margin-top: 750px;
+	display: flex;
+	padding: 0 5em;
+	text-align: center;
+}
+.meses-titulo{
+	color: #4C7912;
+	margin-left: 5em;
+}
+
+
+.container-tempo{
+
+	margin-left: 7em;
+}
+
+.mes-descrição{
+	font-weight: bold;
+}
+
+
+
+
+/*container-verde configurações*/
+
+
+.container-verde{
+	background-color: green;
+}

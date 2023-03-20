@@ -1,0 +1,76 @@
+
+
+.divisão{
+display: flex;
+}
+
+
+.comida{
+	background: #12784D;
+
+	
+}
+
+.comida-titulo{
+	color: white;
+	margin: 1em;
+	padding: 1em;
+	font-weight: 800;
+}
+
+
+/*caixa branca */
+
+.container-branco{
+	background-color: white;
+	width: 325px;
+	height: 550px;
+	margin-left: 22px;
+	align-items: center;
+	text-align: center;
+	margin: 30px;
+}
+
+.container-branco:hover{
+	background-color: white;
+	width: 325px;
+	height: 570px;
+	margin-left: 22px;
+	align-items: center;
+	text-align: center;
+	margin: 30px;
+}
+
+
+.comida-foto{
+width: 260px;
+height: 260px;
+margin: 1.5em 2em;
+
+}
+
+.comida-foto:hover{
+width: 280px;
+height: 280px;
+margin: 1.5em 1em;
+
+
+}
+
+.restaurante1{
+	font-weight: bold;
+	font-size: 18px;
+
+}
+
+
+.descrição-restaurente{
+	padding: 1em;
+}
+
+span{
+	font-weight: bold;
+}
+
+
+

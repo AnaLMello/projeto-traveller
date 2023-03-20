@@ -1,0 +1,24 @@
+.rj-foto{
+	width: 260px;
+	height: 260px;
+	margin: 1.5em 2em;
+}
+
+.praia-descrição{
+	font-weight: bold;
+	font-size: 18px;
+
+}
+
+.praia-descrição:hover{
+	font-weight: bold;
+	font-size: 18px;
+	color: #467010;
+
+}
+
+
+
+.históricas{
+	text-align: left;
+}

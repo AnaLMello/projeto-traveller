@@ -1,0 +1,70 @@
+
+.apresentação-titulo{
+	color: #467010;
+	font-weight: 800;
+	font-size: 64px;
+	position: absolute;
+	justify-content: center;
+	text-align: center;
+	padding: 0 150px;
+}
+
+.apresentação{
+	position: absolute;
+	align-items: center;
+	margin: 6em;
+	display: block;
+  	justify-content: center;
+  	align-items: center;
+	
+}
+
+.apresentação-txt{
+	padding: 20em 20em 5em 20em;
+	text-align: center;
+	align-items: center;
+	margin-left: 45px;
+}
+
+.apresentação-titulo{
+	margin-left: 100px;
+	text-align: center;
+	align-items: center;
+
+
+}
+
+.button1{
+	list-style: none;
+	text-align: center;
+	align-items: center;
+
+}
+
+.apresentação-button{
+	background-color: #467010;
+	font-weight: 800;
+	font-size: 18px;
+	text-decoration: none;
+	list-style: none;
+	color: white;
+	padding: 0.5em;
+	transition: 0.3s;
+	
+}
+
+.apresentação-button:hover{
+	background-color: transparent ;
+	font-weight: 800;
+	font-size: 18px;
+	text-decoration: none;
+	list-style: none;
+	color: #467010;
+	padding: 0.5em;
+	
+}
+
+.line-brasil-app{
+	width: 100%;
+	margin-top: 40em;
+}

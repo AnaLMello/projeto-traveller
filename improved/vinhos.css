@@ -1,0 +1,68 @@
+.divisão{
+display: flex;
+
+}
+
+.vinho{
+	
+	background: #12784D;
+
+	
+}
+
+.vinho-titulo{
+	color: white;
+	margin: 1em;
+	padding: 1em;
+	font-weight: 800;
+}
+
+
+.vinho-foto{
+	width: 260px;
+	height: 260px;
+	margin: 1.5em 2em;
+}
+
+
+.container-branco-vinho{
+	background-color: white;
+	width: 325px;
+	height: 640px;
+	margin-left: 22px;
+	align-items: center;
+	text-align: center;
+	margin: 30px;
+
+}
+
+
+.button-conheça{
+	list-style: none;
+	text-align: right;
+	margin: 0.4em;
+}
+
+
+
+.button-conheça-apresentação{
+	background-color: #467010;
+	font-weight: 400;
+	font-size: 15px;
+	text-decoration: none;
+	list-style: none;
+	color: white;
+	padding: 0.5em;
+	transition: 0.3s;
+}
+
+
+.button-conheça-apresentação:hover{
+	background-color: transparent ;
+	font-weight: 400;
+	font-size: 15px;
+	text-decoration: none;
+	list-style: none;
+	color: #467010;
+	padding: 0.5em;
+}

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+
+
+	<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Brasil</title>
+
+
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<link rel="stylesheet" type="text/css" href="carrosel.css">
+</head>
+
+
+
+
+
+
+<body>
+
+
+
+<header class="cabeçalho">
+
+    <div class="logo">
+
+        <img class="logo-img" src="images/traveller.png" alt="logo do gulliver traveller">
+
+        <ul class="menu">
+            <li class="menu-opções" >
+                <a href="sobremim.html" class="menu-link"> Sobre mim</a>
+            </li>
+            
+            <li class="menu-opções">
+                <a href="#" class="menu-link">Dicas</a>
+            </li>
+            <li class="menu-opções">
+                <a href="#" class="menu-link">Meses</a>
+            </li>
+
+        </ul>
+
+    </div>
+
+</header>
+
+
+
+<section class="carrosel">
+	<h2 class="carrosel-titulo"> Conheça pelo Brasil </h2>
+	
+	<!-- Slider main container -->
+<div class="swiper">
+  <!-- Additional required wrapper -->
+<!-- If we need pagination -->
+  <div class="swiper-pagination"></div>
+
+  <div class="swiper-wrapper">
+    <!-- Slides -->
+    
+	  <div class="swiper-slide"><img src="images/cidades/1.png" onmouseover="this.src='images/cidades/16.png'" onmouseout="this.src='images/cidades/1.png'"></div>
+      <div class="swiper-slide"><img src="images/cidades/2.png" onmouseover="this.src='images/cidades/15.png'" onmouseout="this.src='images/cidades/2.png'"></div>
+      <div class="swiper-slide"><img src="images/cidades/3.png" onmouseover="this.src='images/cidades/14.png'" onmouseout="this.src='images/cidades/3.png'"></div>
+      <div class="swiper-slide"><img src="images/cidades/4.png" onmouseover="this.src='images/cidades/13.png'" onmouseout="this.src='images/cidades/4.png'"></div>
+      <div class="swiper-slide"><img src="images/cidades/5.png" onmouseover="this.src='images/cidades/12.png'" onmouseout="this.src='images/cidades/5.png'"></div>
+      <div class="swiper-slide"><img src="images/cidades/6.png" onmouseover="this.src='images/cidades/11.png'" onmouseout="this.src='images/cidades/6.png'"></div>
+      <div class="swiper-slide"><img src="images/cidades/7.png" onmouseover="this.src='images/cidades/10.png'" onmouseout="this.src='images/cidades/7.png'"></div>
+      <div class="swiper-slide"><img src="images/cidades/8.png" onmouseover="this.src='images/cidades/9.png'" onmouseout="this.src='images/cidades/8.png'"></div>
+    
+  </div>
+  
+
+  <!-- If we need navigation buttons -->
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+
+</div>
+</section>
+
+
+<div class="container-mes">
+
+<div>
+	<h2 class="meses-titulo"> MELHORES MESES PARA CONHECER:</h2>
+	<p class="mes-descrição">De Dezembro a Março - VERÃO</p>
+</div>
+
+
+<div class="container-tempo">
+	<h2 class="meses-titulo"> TEMPO IDEAL PARA UM PASSEIO COMPLETO</h2>
+	<p class="mes-descrição"> De 5 a 6 meses </p>
+</div>
+
+
+</div>
+
+<div class="container-verde">
+    <div class="container-verde-descrição">
+        <h2> oi moanoite</h2>
+    </div>
+</div>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+<script >
+	const swiper = new Swiper('.swiper', {
+  slidesPerView: 5,
+  spaceBetween: 4,
+   pagination: {
+    el: '.swiper-pagination',
+    type: 'bullets',
+  },
+});
+</script>
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>

@@ -1,0 +1,96 @@
+
+body{
+	font-family: 'Poppins', sans-serif;
+}
+
+
+.para1{
+color: #4C7912;
+position: absolute;
+text-align: center;
+font-weight: 800;
+font-size: 30px;
+margin-top: 190px;
+width: 60%;
+padding: 0 10em;
+}
+
+
+.CHAT{
+	font-size: 15PX;
+	color: #4C7912;
+	position: absolute;
+	text-align: right;
+	margin-top: 490px;
+	padding: 0 50em;
+	font-weight: 800;
+
+}
+
+.container-img{
+	display: flex;
+	position: absolute;
+	margin-top: 680px;
+	padding: 2em 3em ;
+}
+
+/*foto do gulliver*/
+.foto-gulliver{
+	width: 603px ;
+	height: 646px;
+}
+
+
+.app-gulliver{
+	padding: 0 4em;
+}
+
+span{
+	color: #4C7912;
+	font-weight: 800;
+	font-size: 20px;
+	
+}
+
+
+.paises{
+	position: absolute;
+	margin-top: 1400px;
+	margin-left: 50px;
+}
+
+.bandeiras{
+
+	width: 90px;
+	height: 90px;
+	padding: 0.2em;
+}
+
+.bandeiras:hover{
+
+	width: 100px;
+	height: 100px;
+	padding: 0.5em;
+	
+}
+
+.bandeira-países{
+
+	display: flex;
+	margin: 5em 2em;
+}
+
+.bandeira-brasil{
+	width: 75px;
+	height: 75px;
+	padding: 0.2em;
+}
+
+.bandeira-brasil:hover{
+
+	width: 90px;
+	height: 90px;
+	padding: 0.5em;
+	
+}
+

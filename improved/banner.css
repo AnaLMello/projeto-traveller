@@ -1,0 +1,78 @@
+.banner-item{
+	display: flex;
+	padding: 1.5em;
+	text-align: center;
+
+}
+
+
+.topicobanner{
+list-style: none;
+	text-align: right;
+	margin: 0.4em;
+	padding: 1em;
+	text-align: center;
+}
+
+.botão-banner{
+	background-color: #467010;
+	font-weight: 400;
+	font-size: 16px;
+	text-decoration: none;
+	list-style: none;
+	color: white;
+	padding: 0.5em;
+	transition: 0.3s;
+	text-align: center;
+}
+
+
+.botão-banner:hover{
+	background-color: transparent ;
+	border: solid 1px #467010;
+	font-weight: 400;
+	font-size: 16px;
+	text-decoration: none;
+	list-style: none;
+	color: #467010;
+	padding: 0.5em;
+}
+
+
+.banner-title{
+	text-align: center;
+	font-size: 22px;
+}
+
+
+
+
+.contato{
+
+	text-align: center;
+}
+
+
+.contato-titulo{
+	padding: 9em 0 1em;
+	font-weight: 800;
+}
+
+
+.contato-email{
+	background-color: transparent;
+	border: 1px solid #002F52;
+	color: #002F52;
+	border-radius: 24px;
+	padding: 1em ;
+	width: 30%;
+	text-decoration: none;
+
+
+
+}
+
+
+.bia{
+	text-align: center;
+}
